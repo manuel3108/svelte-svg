@@ -1,6 +1,6 @@
 {
     "name": "svelte-svg",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Svelte Library for SVG (Scalable Vector Graphics)",
     "svelte": "src/index.js",
     "private": true,
