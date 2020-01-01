@@ -3,7 +3,6 @@
     "version": "0.0.2",
     "description": "Svelte Library for SVG (Scalable Vector Graphics)",
     "svelte": "src/index.js",
-    "private": true,
     "scripts": {
         "build": "rollup -c",
         "autobuild": "rollup -c -w",
