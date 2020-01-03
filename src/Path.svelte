@@ -7,7 +7,7 @@
     export let points
 
     $: {
-        if (points !== undefined) {
+        if (points !== undefined && points.length > 0) {
             let temp = `M${points[0].x} ${points[0].y} `
             for (let i = 0; i < points.length; i++) {
                 temp += `L${points[i].x} ${points[i].y} `
