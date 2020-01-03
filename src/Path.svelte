@@ -8,7 +8,6 @@
 
     $: {
         if (points !== undefined) {
-            console.log("running");
             let temp = `M${points[0].x} ${points[0].y} `
             for (let i = 0; i < points.length; i++) {
                 temp += `L${points[i].x} ${points[i].y} `
