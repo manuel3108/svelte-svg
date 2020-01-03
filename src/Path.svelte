@@ -1,10 +1,10 @@
 <path d={path} stroke={stroke} fill={fill}></path>
 
 <script>
-    export let path
+    export let path = undefined
     export let stroke = 'black'
-    export let fill
-    export let points
+    export let fill = 'transparent'
+    export let points = undefined
 
     $: {
         if (points !== undefined && points.length > 0) {
